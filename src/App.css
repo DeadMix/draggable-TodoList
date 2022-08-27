@@ -1,0 +1,83 @@
+body {
+overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background: #222;
+}
+
+input {
+	height: 30px;
+	width: 250px;
+	border: none;
+	border-bottom: 1px solid currentColor;
+	background: none;
+	color: white;
+	padding: 0 10px;
+	outline: none;
+}
+
+.btn {
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	background: none;
+	border: 1px solid currentColor;
+	color: whitesmoke;
+	margin-left: 10px;
+}
+
+.btn:hover {
+	background: whitesmoke;
+	color: #222;
+	cursor: pointer;
+}
+
+.btn--delete {
+	width: 40px;
+}
+
+.todo__item {
+	position: absolute;
+	cursor: move;
+	min-width: 215px;
+	min-height: 40px;
+	padding: 10px;
+	padding-right: 30px;
+	border-radius: 5px;
+	background: none;
+	color: #000;
+}
+
+.todo__item:hover {
+	box-shadow: 0px 0px 10px 3px currentColor;
+}
+
+.delete {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	border: none;
+	background: none;
+	color: #fff;
+}
+
+.delete:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.tasks-delete {
+	width: 50px;
+	height: 30px;
+	margin-left: 5px;
+	border: 1px solid currentColor;
+	background: none;
+	color: #fff;
+}
