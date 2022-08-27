@@ -2,8 +2,9 @@
 
 Second Todo Project for practice
 
-## Using library:
+## Libraries used:
 
+- react
 - react-draggable
 - randomcolor
 - uuid
